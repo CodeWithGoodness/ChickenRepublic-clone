@@ -1,0 +1,29 @@
+body {
+  width: auto;
+  height: auto;
+}
+section{
+background-image: url("Images/ChickenRepublic_HomePageBanner.jpg");
+background-size: cover;
+background-position: center;
+height: auto;
+}
+section>div.nav{
+  width: 60%;
+  height: 15%;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  border: 1px solid white;
+  margin: auto;
+}
+section>div.nav>div.logo{
+  background-color: red;
+  width:35%;
+  height:100%;
+  border: 1px solid black;
+}
+section>div.nav>div.logo>img{
+width: 90%;
+height: 90%;
+}
