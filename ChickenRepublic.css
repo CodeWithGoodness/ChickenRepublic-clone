@@ -1,29 +1,40 @@
 body {
   width: auto;
   height: auto;
+  background-color: blue;
 }
 section{
 background-image: url("Images/ChickenRepublic_HomePageBanner.jpg");
 background-size: cover;
-background-position: center;
-height: auto;
+background-position:center;
+height: 600px;
+border: 1px solid red;
 }
 section>div.nav{
-  width: 60%;
-  height: 15%;
+  width: 45%;
+  height: fit-content;
   display: flex;
   justify-content:space-between;
-  align-items: center;
+  align-items:center;
   border: 1px solid white;
   margin: auto;
 }
 section>div.nav>div.logo{
   background-color: red;
-  width:35%;
-  height:100%;
-  border: 1px solid black;
+  width:125px;
+  height:fit-content;
+  display: flex;
+  justify-content: center;
 }
 section>div.nav>div.logo>img{
-width: 90%;
-height: 90%;
+width: 260px;
+height: 150px;
+margin-top:-14px;
+}
+section>div.nav>a{
+  margin-top:-14px;
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  font-weight: 700;
 }
